@@ -7,4 +7,4 @@ class Config(object):
     #
     """
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess-in-a-million-years'
-    # Proects against CSRF. Generates secure Jtokens and signatures.
+    # Proects against CSRF. Generates secure tokens and signatures.
