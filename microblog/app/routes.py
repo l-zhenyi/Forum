@@ -46,3 +46,17 @@ def logout():
     logout_user()
     return redirect(url_for('index'))
 
+# Clearing database for next session
+# (venv) $ flask db downgrade base
+# (venv) $ flask db upgrade
+
+# Cleaning flask shell
+#  >>> users = User.query.all() 
+# >>> for u in users: 
+# ...     db.session.delete(u) 
+# ... 
+# >>> posts = Post.query.all() 
+# >>> for p in posts: 
+# ...     db.session.delete(p) 
+# ... 
+# >>> db.session.commit() 
