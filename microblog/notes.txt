@@ -17,3 +17,5 @@
 
 # pip install "flask<3" "werkzeug<3" "aiosmtpd"
 # aimsmtpd replaces smtp
+# Install flask-mail?
+# Install pip install pyjwt?

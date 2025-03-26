@@ -16,4 +16,5 @@ class Config(object):
     MAIL_USE_TLS = os.environ.get('MAIL_USE_TLS') is not None 
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME') 
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') 
-    ADMINS = ['your-email@example.com']
+    ADMINS = ['your-email@example.com'] #TODO: SET WEBSITE ADMIN EMAILS
+    POSTS_PER_PAGE = 25 # TODO: SET NUMBER OF POSTS PER PAGE

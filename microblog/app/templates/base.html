@@ -1,3 +1,4 @@
+<!-- TODO: Pg189, bootstrap this template. IN FACT, LOOK THROUGH BOOTSTRAP FACELIFT CHAPTER AGAIN. -->
 <!doctype html> 
 <html>
     <head> 
@@ -11,6 +12,7 @@
         <div>
             Microblog:
             <a href="{{ url_for('index') }}">Home</a>
+            <a href="{{ url_for('explore') }}">Explore</a>
             {% if current_user.is_anonymous %}
             <a href="{{ url_for('login') }}">Login</a>
             {% else %}
